@@ -58,12 +58,12 @@ public class Opdracht1 extends Applet{
         g.drawArc(370,360,breedte2,hoogte,0,360);
 
         //Namen
-        g.drawString("Lijn",100,145);
-        g.drawString("Rechthoek",100,25);
-        g.drawString("Afgeronde rechhoek",100,75);
-        g.drawString("Gevulde rechthoek met ovaal",315,20);
-        g.drawString("Gevulde ovaal",315,80);
-        g.drawString("Taartpunt met ovaal eromheen",100,25);
-        g.drawString("Cirkel",370,70);
+        g.drawString("Lijn",100,75);
+        g.drawString("Rechthoek",100,95);
+        g.drawString("Afgeronde rechhoek",100,220);
+        g.drawString("Gevulde rechthoek met ovaal",315,95);
+        g.drawString("Gevulde ovaal",315,220);
+        g.drawString("Taartpunt met ovaal eromheen",100,355);
+        g.drawString("Cirkel",370,355);
     }
 }
