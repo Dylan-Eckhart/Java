@@ -31,6 +31,8 @@ public class Opdracht2 extends Applet{
     }
 
     public void paint(Graphics g) {
+        setBackground(achtergrond);
+
         //Grafiek
         g.drawLine(50,250,50,150);
         g.drawLine(50,250,220,250);
