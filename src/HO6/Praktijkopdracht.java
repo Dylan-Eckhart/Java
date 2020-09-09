@@ -24,7 +24,7 @@ public class Praktijkopdracht extends Applet {
         Cijfer2 = 6.3;
         Cijfer3 = 6.9;
         Uitkomst = (Cijfer1 + Cijfer2 + Cijfer3) / 3;
-        GemiddeldeUitkomst = (int) (Uitkomst * 10.0);
+        GemiddeldeUitkomst = (int) (Uitkomst * 10.0;
         DefinitiveUitkomst = GemiddeldeUitkomst / 10.0;
 
     }
