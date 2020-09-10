@@ -6,13 +6,6 @@ import java.awt.event.*;
 
 public class Opdracht2 extends Applet {
 
-    //Declaratie Variabelen
-    int M;
-    int V;
-    int PM;
-    int PV;
-    int Totaal;
-
     //Declaratie Knoppen
     TextField Tekstvak;
     Button BM;
@@ -20,7 +13,7 @@ public class Opdracht2 extends Applet {
     Button BPM;
     Button BPV;
 
-    //Declaratie string
+    //Declaratie Variabelen
     String SM;
     double DM;
     String SV;
@@ -31,16 +24,9 @@ public class Opdracht2 extends Applet {
     double DPV;
 
     public void init() {
-        setSize(800,200);
+        setSize(800,175);
 
         //Initalisatie Variabelen
-        M = 0;
-        V = 0;
-        PM = 0;
-        PV = 0;
-        Totaal = M + V + PM + PV;
-
-        //Initalisatie Double
         DM = 0;
         SM = Double.toString(DM);
         DV = 0;
@@ -76,7 +62,7 @@ public class Opdracht2 extends Applet {
         g.drawString("Vrouwlijke Studenten: ",50,80);
         g.drawString("Potentiele Mannelijke Studenten: ",50,100);
         g.drawString("Potentiele Vrouwelijke Studenten: ",50,120);
-        g.drawString("Totaal: " + Totaal,50,140);
+        g.drawString("Totaal: ",50,140);
         g.drawString(SM,190,60);
         g.drawString(SV,190,80);
         g.drawString(SPM,257,100);
@@ -87,6 +73,7 @@ public class Opdracht2 extends Applet {
     class Man implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             SM = Tekstvak.getText();
+            repaint();
         }
     }
 
