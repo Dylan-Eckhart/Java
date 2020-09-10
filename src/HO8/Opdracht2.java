@@ -11,8 +11,10 @@ public class Opdracht2 extends Applet {
     int V;
     int PM;
     int PV;
+    int Totaal;
 
     //Declaratie Knoppen
+    TextField Tekstvak;
     Button BM;
     Button BV;
     Button BPM;
@@ -26,6 +28,8 @@ public class Opdracht2 extends Applet {
         V = 0;
         PM = 0;
         PV = 0;
+        Totaal = M + V + PM + PV;
+        Tekstvak = new TextField("",5);
 
         //Knoppen
         BM = new Button("Mannelijke Studenten");
@@ -45,7 +49,7 @@ public class Opdracht2 extends Applet {
         add(BV);
         add(BPM);
         add(BPV);
-
+        add(Tekstvak);
     }
 
     public void paint(Graphics g) {
@@ -53,6 +57,7 @@ public class Opdracht2 extends Applet {
         g.drawString("Vrouwlijke Studenten: " + V,50,80);
         g.drawString("Potentiele Mannelijke Studenten: " + PM,50,100);
         g.drawString("Potentiele Vrouwelijke Studenten: " + PV,50,120);
+        g.drawString("Totaal: " + Totaal,50,140);
 
     }
 
