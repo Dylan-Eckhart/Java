@@ -87,7 +87,7 @@ public class Opdracht2 extends Applet {
     class Vrouw implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             SV = Tekstvak.getText();
-            DTotaal = Double.parseDouble(SM)+Double.parseDouble(SV)+Double.parseDouble(SPM)+Double.parseDouble(SPV);
+            DTotaal = Double.parseDouble(SM) + Double.parseDouble(SV) + Double.parseDouble(SPM) + Double.parseDouble(SPV);
             STotaal = Double.toString(DTotaal);
             repaint();
         }
@@ -96,7 +96,7 @@ public class Opdracht2 extends Applet {
     class PMan implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             SPM = Tekstvak.getText();
-            DTotaal = Double.parseDouble(SM)+Double.parseDouble(SV)+Double.parseDouble(SPM)+Double.parseDouble(SPV);
+            DTotaal = Double.parseDouble(SM) + Double.parseDouble(SV) + Double.parseDouble(SPM) + Double.parseDouble(SPV);
             STotaal = Double.toString(DTotaal);
             repaint();
         }
@@ -105,7 +105,7 @@ public class Opdracht2 extends Applet {
     class PVrouw implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             SPV = Tekstvak.getText();
-            DTotaal = Double.parseDouble(SM)+Double.parseDouble(SV)+Double.parseDouble(SPM)+Double.parseDouble(SPV);
+            DTotaal = Double.parseDouble(SM) + Double.parseDouble(SV) + Double.parseDouble(SPM) + Double.parseDouble(SPV);
             STotaal = Double.toString(DTotaal);
             repaint();
         }
