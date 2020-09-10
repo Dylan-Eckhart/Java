@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="30d16d7a-020d-423e-abe2-0432399cd025" name="Default Changelist" comment="Push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO8/Opdracht2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HO8/Opdracht2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +119,7 @@
       <workItem from="1599547894297" duration="9457000" />
       <workItem from="1599634509948" duration="115000" />
       <workItem from="1599634636880" duration="7430000" />
-      <workItem from="1599720823611" duration="16889000" />
+      <workItem from="1599720823611" duration="17804000" />
     </task>
     <task id="LOCAL-00001" summary="TEXT">
       <created>1599472342959</created>
@@ -374,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599739594846</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Push">
+      <created>1599740537995</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1599740537995</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,30 +404,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="Push" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="243" key="GridCell.Tab.0.bottom" timestamp="1599739980989">
+    <state width="1358" height="243" key="GridCell.Tab.0.bottom" timestamp="1599740528643">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1358" height="243" key="GridCell.Tab.0.bottom/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599739980989" />
-    <state width="1358" height="243" key="GridCell.Tab.0.center" timestamp="1599739980988">
+    <state width="1358" height="243" key="GridCell.Tab.0.bottom/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599740528643" />
+    <state width="1358" height="243" key="GridCell.Tab.0.center" timestamp="1599740528642">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1358" height="243" key="GridCell.Tab.0.center/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599739980988" />
-    <state width="1358" height="243" key="GridCell.Tab.0.left" timestamp="1599739980987">
+    <state width="1358" height="243" key="GridCell.Tab.0.center/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599740528642" />
+    <state width="1358" height="243" key="GridCell.Tab.0.left" timestamp="1599740528641">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1358" height="243" key="GridCell.Tab.0.left/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599739980987" />
-    <state width="1358" height="243" key="GridCell.Tab.0.right" timestamp="1599739980988">
+    <state width="1358" height="243" key="GridCell.Tab.0.left/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599740528641" />
+    <state width="1358" height="243" key="GridCell.Tab.0.right" timestamp="1599740528642">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1358" height="243" key="GridCell.Tab.0.right/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599739980988" />
+    <state width="1358" height="243" key="GridCell.Tab.0.right/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599740528642" />
     <state x="469" y="151" key="SettingsEditor" timestamp="1599472460970">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state x="469" y="151" key="SettingsEditor/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599472460970" />
-    <state x="560" y="252" key="Vcs.Push.Dialog.v2" timestamp="1599739597023">
+    <state x="560" y="252" key="Vcs.Push.Dialog.v2" timestamp="1599740539320">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state x="560" y="252" key="Vcs.Push.Dialog.v2/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599739597023" />
+    <state x="560" y="252" key="Vcs.Push.Dialog.v2/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599740539320" />
     <state x="469" y="268" width="907" height="617" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1599736997782">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
