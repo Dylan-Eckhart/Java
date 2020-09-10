@@ -20,6 +20,12 @@ public class Opdracht2 extends Applet {
     Button BPM;
     Button BPV;
 
+    //Declaratie string
+    String SM;
+    String SV;
+    String SPM;
+    String SPV;
+
     public void init() {
         setSize(800,200);
 
@@ -28,7 +34,7 @@ public class Opdracht2 extends Applet {
         V = 0;
         PM = 0;
         PV = 0;
-        Totaal = (M + V + PM + PV);
+        Totaal = M + V + PM + PV;
         Tekstvak = new TextField("",5);
 
         //Initalisatie Knoppen
@@ -37,12 +43,11 @@ public class Opdracht2 extends Applet {
         BPM = new Button("Potentiele Mannelijke Studenten");
         BPV = new Button("Potentiele Vrouwlijke Studenten");
 
-
         //Initalisatie Functies Knoppen
-        BM.addActionListener(new bmL());
-        BV.addActionListener(new bvL());
-        BPM.addActionListener(new bpotmL());
-        BPV.addActionListener(new bpotvL());
+        BM.addActionListener(new Man());
+        BV.addActionListener(new Vrouw());
+        BPM.addActionListener(new PMan());
+        BPV.addActionListener(new PVrouw());
 
         //Initalisatie Add Knoppen
         add(BM);
@@ -53,38 +58,42 @@ public class Opdracht2 extends Applet {
     }
 
     public void paint(Graphics g) {
-        g.drawString("Mannelijke Studenten: " + M,50,60);
-        g.drawString("Vrouwlijke Studenten: " + V,50,80);
-        g.drawString("Potentiele Mannelijke Studenten: " + PM,50,100);
-        g.drawString("Potentiele Vrouwelijke Studenten: " + PV,50,120);
+        g.drawString("Mannelijke Studenten: ",50,60);
+        g.drawString("Vrouwlijke Studenten: ",50,80);
+        g.drawString("Potentiele Mannelijke Studenten: ",50,100);
+        g.drawString("Potentiele Vrouwelijke Studenten: ",50,120);
         g.drawString("Totaal: " + Totaal,50,140);
-
+        g.drawString(SM,150,50);
+        g.drawString(SM,150,50);
+        g.drawString(SM,150,50);
+        g.drawString(SM,150,50);
+        g.drawString(SM,150,50);
     }
 
-    class bmL implements ActionListener {
+    class Man implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            M ++;
+            SM = Tekstvak.getText();
             repaint();
         }
     }
 
-    class bvL implements ActionListener {
+    class Vrouw implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            V ++;
+            SV = Tekstvak.getText();
             repaint();
         }
     }
 
-    class bpotmL implements ActionListener {
+    class PMan implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            PM ++;
+            SPM = Tekstvak.getText();
             repaint();
         }
     }
 
-    class bpotvL implements ActionListener {
+    class PVrouw implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            PV ++;
+            SPV = Tekstvak.getText();
             repaint();
         }
     }

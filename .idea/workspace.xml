@@ -50,7 +50,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Applet.Opdracht2">
+  <component name="RunManager" selected="Applet.Opdracht3 (1)">
     <configuration name="Opdracht1" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HO8.Opdracht1" />
       <module name="inleiding-java" />
@@ -99,9 +99,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Applet.Opdracht3 (1)" />
         <item itemvalue="Applet.Opdracht2" />
         <item itemvalue="Applet.Opdracht1" />
-        <item itemvalue="Applet.Opdracht3 (1)" />
         <item itemvalue="Applet.Opdracht3" />
         <item itemvalue="Applet.Praktijkopdracht" />
       </list>
@@ -120,7 +120,7 @@
       <workItem from="1599547894297" duration="9457000" />
       <workItem from="1599634509948" duration="115000" />
       <workItem from="1599634636880" duration="7430000" />
-      <workItem from="1599720823611" duration="10347000" />
+      <workItem from="1599720823611" duration="12375000" />
     </task>
     <task id="LOCAL-00001" summary="TEXT">
       <created>1599472342959</created>
@@ -346,7 +346,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599732214643</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Push">
+      <created>1599732896086</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1599732896086</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Push">
+      <created>1599733043160</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1599733043160</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,29 +384,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="Push" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="251" key="GridCell.Tab.0.bottom" timestamp="1599732300272">
+    <state width="1358" height="243" key="GridCell.Tab.0.bottom" timestamp="1599734850686">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.0.bottom/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599732300272" />
-    <state width="1358" height="251" key="GridCell.Tab.0.center" timestamp="1599732300270">
+    <state width="1358" height="243" key="GridCell.Tab.0.bottom/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599734850686" />
+    <state width="1358" height="243" key="GridCell.Tab.0.center" timestamp="1599734850685">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.0.center/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599732300270" />
-    <state width="1358" height="251" key="GridCell.Tab.0.left" timestamp="1599732300270">
+    <state width="1358" height="243" key="GridCell.Tab.0.center/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599734850685" />
+    <state width="1358" height="243" key="GridCell.Tab.0.left" timestamp="1599734850684">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.0.left/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599732300270" />
-    <state width="1358" height="251" key="GridCell.Tab.0.right" timestamp="1599732300271">
+    <state width="1358" height="243" key="GridCell.Tab.0.left/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599734850684" />
+    <state width="1358" height="243" key="GridCell.Tab.0.right" timestamp="1599734850685">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.0.right/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599732300271" />
+    <state width="1358" height="243" key="GridCell.Tab.0.right/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599734850685" />
     <state x="469" y="151" key="SettingsEditor" timestamp="1599472460970">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state x="469" y="151" key="SettingsEditor/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599472460970" />
-    <state x="560" y="252" key="Vcs.Push.Dialog.v2" timestamp="1599732216373">
+    <state x="560" y="252" key="Vcs.Push.Dialog.v2" timestamp="1599733045315">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state x="560" y="252" key="Vcs.Push.Dialog.v2/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599732216373" />
+    <state x="560" y="252" key="Vcs.Push.Dialog.v2/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599733045315" />
   </component>
 </project>
