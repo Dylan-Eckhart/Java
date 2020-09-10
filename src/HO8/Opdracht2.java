@@ -22,6 +22,8 @@ public class Opdracht2 extends Applet {
     double DPM;
     String SPV;
     double DPV;
+    String STotaal;
+    double DTotaal;
 
     public void init() {
         setSize(800,175);
@@ -35,6 +37,8 @@ public class Opdracht2 extends Applet {
         SPM = Double.toString(DPM);
         DPV = 0;
         SPV = Double.toString(DPV);
+        DTotaal = 0;
+        STotaal = Double.toString(DTotaal);
 
         //Initalisatie Knoppen
         BM = new Button("Mannelijke Studenten");
@@ -67,12 +71,15 @@ public class Opdracht2 extends Applet {
         g.drawString(SV,190,80);
         g.drawString(SPM,257,100);
         g.drawString(SPV,263,120);
+        g.drawString(STotaal,97,140);
 
     }
 
     class Man implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             SM = Tekstvak.getText();
+            DTotaal = Double.parseDouble(SM)+Double.parseDouble(SV)+Double.parseDouble(SPM)+Double.parseDouble(SPV);
+            STotaal = Double.toString(DTotaal);
             repaint();
         }
     }
@@ -80,6 +87,8 @@ public class Opdracht2 extends Applet {
     class Vrouw implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             SV = Tekstvak.getText();
+            DTotaal = Double.parseDouble(SM)+Double.parseDouble(SV)+Double.parseDouble(SPM)+Double.parseDouble(SPV);
+            STotaal = Double.toString(DTotaal);
             repaint();
         }
     }
@@ -87,6 +96,8 @@ public class Opdracht2 extends Applet {
     class PMan implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             SPM = Tekstvak.getText();
+            DTotaal = Double.parseDouble(SM)+Double.parseDouble(SV)+Double.parseDouble(SPM)+Double.parseDouble(SPV);
+            STotaal = Double.toString(DTotaal);
             repaint();
         }
     }
@@ -94,6 +105,8 @@ public class Opdracht2 extends Applet {
     class PVrouw implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             SPV = Tekstvak.getText();
+            DTotaal = Double.parseDouble(SM)+Double.parseDouble(SV)+Double.parseDouble(SPM)+Double.parseDouble(SPV);
+            STotaal = Double.toString(DTotaal);
             repaint();
         }
     }
