@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="30d16d7a-020d-423e-abe2-0432399cd025" name="Default Changelist" comment="Push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/H02/Opdracht2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HO2/Opdracht2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/h01/HalloRocDev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HO1/HalloRocDev.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Applet.Opdracht2">
+  <component name="RunManager" selected="Applet.Opdracht3 (1)">
     <configuration name="Opdracht1" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HO8.Opdracht1" />
       <module name="inleiding-java" />
@@ -59,15 +57,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Opdracht2 (2)" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HO6.Opdracht2" />
+    <configuration name="Opdracht2" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HO8.Opdracht2" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Opdracht2" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HO8.Opdracht2" />
+    <configuration name="Opdracht3 (1)" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HO8.Opdracht3" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Applet.Opdracht3 (1)" />
+        <item itemvalue="Applet.Opdracht3" />
         <item itemvalue="Applet.Opdracht2" />
         <item itemvalue="Applet.Opdracht1" />
         <item itemvalue="Applet.Praktijkopdracht" />
-        <item itemvalue="Applet.Opdracht3" />
-        <item itemvalue="Applet.Opdracht2 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +119,7 @@
       <workItem from="1599547894297" duration="9457000" />
       <workItem from="1599634509948" duration="115000" />
       <workItem from="1599634636880" duration="7430000" />
-      <workItem from="1599720823611" duration="6830000" />
+      <workItem from="1599720823611" duration="8413000" />
     </task>
     <task id="LOCAL-00001" summary="TEXT">
       <created>1599472342959</created>
@@ -326,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599727630658</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Push">
+      <created>1599728356467</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1599728356467</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,9 +375,9 @@
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state x="469" y="151" key="SettingsEditor/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599472460970" />
-    <state x="560" y="252" key="Vcs.Push.Dialog.v2" timestamp="1599727631959">
+    <state x="560" y="252" key="Vcs.Push.Dialog.v2" timestamp="1599728357796">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state x="560" y="252" key="Vcs.Push.Dialog.v2/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599727631959" />
+    <state x="560" y="252" key="Vcs.Push.Dialog.v2/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599728357796" />
   </component>
 </project>
