@@ -17,7 +17,7 @@ public class Opdracht1 extends Applet {
 
         //Initalisatie
         Tekstvak = new TextField("Klik hier");
-        OkayKnop = new Button("Klik Hier");
+        OkayKnop = new Button("Okay");
         Label = new Label("Type hier iets!");
         ResetKnop = new Button("Reset");
         OkayKnop.addActionListener(new KnoplistenerOkay() );
