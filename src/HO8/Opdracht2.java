@@ -44,7 +44,7 @@ public class Opdracht2 extends Applet {
         BPM.addActionListener(new bpotmL());
         BPV.addActionListener(new bpotvL());
 
-        //Initalisatie Knoppen Add
+        //Initalisatie Add Knoppen
         add(BM);
         add(BV);
         add(BPM);
