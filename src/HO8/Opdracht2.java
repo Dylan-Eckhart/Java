@@ -22,9 +22,13 @@ public class Opdracht2 extends Applet {
 
     //Declaratie string
     String SM;
+    double DM;
     String SV;
+    double DV;
     String SPM;
+    double DPM;
     String SPV;
+    double DPV;
 
     public void init() {
         setSize(800,200);
@@ -35,13 +39,23 @@ public class Opdracht2 extends Applet {
         PM = 0;
         PV = 0;
         Totaal = M + V + PM + PV;
-        Tekstvak = new TextField("",5);
+
+        //Initalisatie Double
+        DM = 0;
+        SM = Double.toString(DM);
+        DV = 0;
+        SV = Double.toString(DV);
+        DPM = 0;
+        SPM = Double.toString(DPM);
+        DPV = 0;
+        SPV = Double.toString(DPV);
 
         //Initalisatie Knoppen
         BM = new Button("Mannelijke Studenten");
         BV = new Button("Vrouwelijke Studenten");
         BPM = new Button("Potentiele Mannelijke Studenten");
         BPV = new Button("Potentiele Vrouwlijke Studenten");
+        Tekstvak = new TextField("",5);
 
         //Initalisatie Functies Knoppen
         BM.addActionListener(new Man());
@@ -63,17 +77,16 @@ public class Opdracht2 extends Applet {
         g.drawString("Potentiele Mannelijke Studenten: ",50,100);
         g.drawString("Potentiele Vrouwelijke Studenten: ",50,120);
         g.drawString("Totaal: " + Totaal,50,140);
-        g.drawString(SM,150,50);
-        g.drawString(SM,150,50);
-        g.drawString(SM,150,50);
-        g.drawString(SM,150,50);
-        g.drawString(SM,150,50);
+        g.drawString(SM,190,60);
+        g.drawString(SV,190,80);
+        g.drawString(SPM,257,100);
+        g.drawString(SPV,263,120);
+
     }
 
     class Man implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             SM = Tekstvak.getText();
-            repaint();
         }
     }
 
