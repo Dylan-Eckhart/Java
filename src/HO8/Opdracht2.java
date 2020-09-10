@@ -28,23 +28,23 @@ public class Opdracht2 extends Applet {
         V = 0;
         PM = 0;
         PV = 0;
-        Totaal = M + V + PM + PV;
+        Totaal = (M + V + PM + PV);
         Tekstvak = new TextField("",5);
 
-        //Knoppen
+        //Initalisatie Knoppen
         BM = new Button("Mannelijke Studenten");
         BV = new Button("Vrouwelijke Studenten");
         BPM = new Button("Potentiele Mannelijke Studenten");
         BPV = new Button("Potentiele Vrouwlijke Studenten");
 
 
-        //Functies Knoppen
+        //Initalisatie Functies Knoppen
         BM.addActionListener(new bmL());
         BV.addActionListener(new bvL());
         BPM.addActionListener(new bpotmL());
         BPV.addActionListener(new bpotvL());
 
-        //Knoppen
+        //Initalisatie Knoppen Add
         add(BM);
         add(BV);
         add(BPM);
