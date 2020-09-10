@@ -44,7 +44,7 @@ public class Opdracht1 extends Applet {
 
     class KnoplistenerReset implements ActionListener {
         public void actionPerformed( ActionEvent e) {
-            Tekstvak.getText();
+            Tekstvak.setText("");
             repaint();
         }
     }
