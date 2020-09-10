@@ -49,9 +49,10 @@ public class Opdracht2 extends Applet {
     }
 
     public void paint(Graphics g) {
-        g.drawString("Mannelijke Studenten: " + V,50,60);
-        g.drawString("Potentiele Mannelijke Studenten: " + PM,50,80);
-        g.drawString("Potentiele Vrouwelijke Studenten: " + PV,50,100);
+        g.drawString("Mannelijke Studenten: " + M,50,60);
+        g.drawString("Vrouwlijke Studenten: " + V,50,80);
+        g.drawString("Potentiele Mannelijke Studenten: " + PM,50,100);
+        g.drawString("Potentiele Vrouwelijke Studenten: " + PV,50,120);
 
     }
 
