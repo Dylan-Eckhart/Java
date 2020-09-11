@@ -30,7 +30,6 @@ public class Opdracht1 extends Applet {
     }
 
     public void paint(Graphics g) {
-        g.drawString("Type een tekst!" + "In het tekstvak" + "En klik op okay",50,60);
         g.drawString(S,60,80);
     }
 
