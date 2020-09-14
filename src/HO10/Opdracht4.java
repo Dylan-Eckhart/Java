@@ -10,10 +10,13 @@ public class Opdracht4 extends Applet {
     //Decleratie
     Label Label;
     TextField TekstMaand;
+    TextField TekstJaar;
     String StringMaand;
     String StringDagen;
+    String StringJaar;
     String Uitkomst;
     double DoubleMaand;
+    double DoubleJaar;
 
     public void init() {
 
@@ -23,10 +26,13 @@ public class Opdracht4 extends Applet {
         StringMaand = "Geen geldig getal";
         Label = new Label("Voer het nummer van de maand in en druk op enter!");
         TekstMaand = new TextField("",10);
+        TekstJaar = new TextField("",10);
+        TekstJaar.addActionListener(new textlistenertmaand());
         TekstMaand.addActionListener(new textlistenertmaand());
 
         add(Label);
         add(TekstMaand);
+        add(TekstJaar);
     }
 
     public void paint(Graphics g) {
@@ -42,7 +48,7 @@ public class Opdracht4 extends Applet {
                 StringDagen = "31";
                 Uitkomst = "Maand + aantal Dagen:  " + StringMaand + " en " + StringDagen + " dagen.";
             }
-            if (DoubleMaand == 2) {
+            if ( (DoubleJaar % 4 == 0 && !(DoubleJaar % 100 == 0)) || DoubleJaar % 400 == 0 && DoubleMaand == 2) {
                 StringMaand = "Februari";
                 StringDagen = "28 of 29";
                 Uitkomst = "Maand + aantal Dagen: " + StringMaand + " en " + StringDagen + " dagen.";
