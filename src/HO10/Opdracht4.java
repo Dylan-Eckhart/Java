@@ -36,13 +36,15 @@ public class Opdracht4 extends Applet {
     }
 
     public void paint(Graphics g) {
-        g.drawString(Uitkomst,20,50);
+        g.drawString(Uitkomst,20,80);
     }
 
     private class textlistenertmaand implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             StringMaand = TekstMaand.getText();
+            StringJaar = TekstJaar.getText();
             DoubleMaand = Double.parseDouble(StringMaand);
+            DoubleJaar = Double.parseDouble(StringJaar);
             if (DoubleMaand == 1) {
                 StringMaand = "Januari";
                 StringDagen = "31";
@@ -50,7 +52,12 @@ public class Opdracht4 extends Applet {
             }
             if ( (DoubleJaar % 4 == 0 && !(DoubleJaar % 100 == 0)) || DoubleJaar % 400 == 0 && DoubleMaand == 2) {
                 StringMaand = "Februari";
-                StringDagen = "28 of 29";
+                StringDagen = "29";
+                Uitkomst = "Maand + aantal Dagen: " + StringMaand + " en " + StringDagen + " dagen.";
+            }
+            if (!(DoubleJaar % 4 == 0 && !(DoubleJaar % 100 == 0)) || DoubleJaar % 400 == 0 && DoubleMaand == 2) {
+                StringMaand = "Februari";
+                StringDagen = "28";
                 Uitkomst = "Maand + aantal Dagen: " + StringMaand + " en " + StringDagen + " dagen.";
             }
             if (DoubleMaand == 3) {
