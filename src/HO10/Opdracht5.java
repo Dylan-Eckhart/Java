@@ -16,6 +16,8 @@ public class Opdracht5 extends Applet {
     Button Submit;
 
     public void init() {
+
+        //Initalisatie
         Label = new Label("Voer een cijfer in");
         Tekstvak =  new TextField("",5);
         Submit = new Button("Submit");
@@ -23,6 +25,7 @@ public class Opdracht5 extends Applet {
 
         AantalCijfers = 0;
         Gemiddelde = 0.0;
+
         add(Tekstvak);
         add(Submit);
     }
