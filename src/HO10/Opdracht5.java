@@ -14,7 +14,6 @@ public class Opdracht5 extends Applet {
     int AantalCijfers;
     boolean Voldoende;
     Button Submit;
-    String Slaging;
 
     public void init() {
         Label = new Label("Voer een cijfer in");
@@ -37,13 +36,8 @@ public class Opdracht5 extends Applet {
     private class knoplistenerSubmit implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             Double Cijfer =  Double.parseDouble(Tekstvak.getText());
-            if (Cijfer >= 5.5) {
-                Voldoende = true;
-            } else {
-                Voldoende = false;
-            }
-            Gemiddelde = ((Gemiddelde * AantalCijfers) + Cijfer) / (AantalCijfers +1);
-            System.out.println(Gemiddelde);
+            Voldoende = Cijfer >= 5.5;
+            Gemiddelde = ((Gemiddelde * AantalCijfers) + Cijfer) / (AantalCijfers + 1);
             Gemiddelde =  Gemiddelde * 10;
             int Gemiddelde_ = (int) Gemiddelde;
             Gemiddelde =  Gemiddelde_;
