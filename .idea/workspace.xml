@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30d16d7a-020d-423e-abe2-0432399cd025" name="Default Changelist" comment="Push">
-      <change afterPath="$PROJECT_DIR$/src/HO11/Opdracht6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HO11/Opdracht8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,21 +128,7 @@
       <workItem from="1599924348615" duration="101000" />
       <workItem from="1600065651063" duration="8743000" />
       <workItem from="1600103851358" duration="1028000" />
-      <workItem from="1600152329767" duration="3328000" />
-    </task>
-    <task id="LOCAL-00012" summary="Push">
-      <created>1599552594648</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1599552594648</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Push">
-      <created>1599552653995</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1599552653995</updated>
+      <workItem from="1600152329767" duration="3636000" />
     </task>
     <task id="LOCAL-00014" summary="Push">
       <created>1599555151362</created>
@@ -473,7 +459,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600172003842</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Push">
+      <created>1600172185202</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1600172185202</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Push">
+      <created>1600172405178</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1600172405178</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,12 +525,12 @@
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state x="469" y="151" key="SettingsEditor/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599472460970" />
-    <state x="560" y="252" key="Vcs.Push.Dialog.v2" timestamp="1600172005419">
+    <state x="560" y="252" key="Vcs.Push.Dialog.v2" timestamp="1600172406516">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state x="560" y="252" key="Vcs.Push.Dialog.v2/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599748892658" />
     <state x="560" y="253" key="Vcs.Push.Dialog.v2/-1080.-44.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1599748969761" />
-    <state x="560" y="252" key="Vcs.Push.Dialog.v2/-1080.23.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1600172005419" />
+    <state x="560" y="252" key="Vcs.Push.Dialog.v2/-1080.23.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1600172406516" />
     <state x="469" y="268" width="907" height="617" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1599736997782">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
