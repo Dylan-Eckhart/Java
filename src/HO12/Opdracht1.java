@@ -38,7 +38,7 @@ public class Opdracht1 extends Applet {
         Gemiddelde = new double[11];
         Uitkomst = (A + B + C + D + E + F + G + H + I + J) / 10;
 
-
+        //Initalisatie berekening gemiddelde
         Gemiddelde[0] = A;
         Gemiddelde[1] = B;
         Gemiddelde[2] = C;
