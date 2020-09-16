@@ -4,7 +4,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.applet.*;
 
-public class Praktijkopdracht extends Applet {
+public class Praktijkopdracht1 extends Applet {
 
     //Declaratie
     int A;
