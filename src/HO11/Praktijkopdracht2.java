@@ -15,7 +15,6 @@ public class Praktijkopdracht2 extends Applet {
     public void init() {
 
         //Initalisatie
-
         A = 0;
         Tafel = 0;
         Submit = new Button("Submit");
