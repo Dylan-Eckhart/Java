@@ -8,7 +8,7 @@ public class Praktijkopdracht extends Applet {
 
     //Declaratie
     int A;
-    long Reset;
+    long Tafel;
     Button Submit;
     TextField Tekstveld;
 
@@ -17,7 +17,7 @@ public class Praktijkopdracht extends Applet {
         //Initalisatie
 
         A = 0;
-        Reset = 0;
+        Tafel = 0;
         Submit = new Button("Submit");
         Tekstveld = new TextField("",10);
 
@@ -28,8 +28,8 @@ public class Praktijkopdracht extends Applet {
 
     public void paint(Graphics g) {
         for (int i = 1; i <= 10; i++) {
-            Reset = A * i;
-            g.drawString("" + Reset,100, i * 20 + 30);
+            Tafel = A * i;
+            g.drawString("" + Tafel,100, i * 20 + 30);
 
             //Berekeningen Tafels
             g.drawString("1 x " + A + "=",50,50);
