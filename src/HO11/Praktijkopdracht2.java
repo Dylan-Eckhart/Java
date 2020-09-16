@@ -10,7 +10,7 @@ public class Praktijkopdracht2 extends Applet {
     int A;
     long Tafel;
     Button Submit;
-    TextField Tekstveld;
+    int I;
 
     public void init() {
 
@@ -19,17 +19,15 @@ public class Praktijkopdracht2 extends Applet {
         A = 0;
         Tafel = 0;
         Submit = new Button("Submit");
-        Tekstveld = new TextField("",10);
 
         Submit.addActionListener(new SubmitListener());
-        add(Tekstveld);
         add(Submit);
     }
 
     public void paint(Graphics g) {
-        for (int i = 1; i <= 10; i++) {
-            Tafel = A * i;
-            g.drawString("" + Tafel,100, i * 20 + 30);
+        for (I = 1; I<=10; I++) {
+            Tafel = A * I;
+            g.drawString("" + Tafel,100, I * 20 + 30);
 
             //Berekeningen Tafels
             g.drawString("1 x " + A + "=",50,50);
@@ -47,7 +45,7 @@ public class Praktijkopdracht2 extends Applet {
 
     class SubmitListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            A = Integer.parseInt(Tekstveld.getText());
+            I = Integer.parseInt(String.valueOf(A++));
             repaint();
         }
     }
