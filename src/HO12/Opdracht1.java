@@ -58,5 +58,6 @@ public class Opdracht1 extends Applet {
         for (int teller = 0; teller < Gemiddelde.length; teller++) {
             g.drawString("" + Gemiddelde[teller],50,20 * teller + 20);
         }
+        g.drawString("Gemiddelde",20,220);
     }
 }
