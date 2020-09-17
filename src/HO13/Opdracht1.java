@@ -3,7 +3,6 @@ package HO13;
 import java.applet.*;
 import java.awt.*;
 
-
 public class Opdracht1 extends Applet {
 
     public void init() {
