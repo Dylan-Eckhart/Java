@@ -19,7 +19,7 @@ public class Opdracht5 extends Applet {
     public void init() {
 
         //Initalisatie
-        enter.addActionListener(new Opdracht4.EnterListener());
+        enter.addActionListener(new EnterListener());
         add(tekst);
         add(input);
         add(enter);
