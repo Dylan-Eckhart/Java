@@ -50,7 +50,6 @@ public class Praktijkopdracht extends Applet {
         }
     }
 
-
     private class SubmitListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {

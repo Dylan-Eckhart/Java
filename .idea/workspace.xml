@@ -52,8 +52,8 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Applet.Praktijkopdracht">
-    <configuration name="Opdracht3" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HO12.Opdracht3" />
+    <configuration name="Opdracht3 (1)" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HO6.Opdracht3" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,10 +101,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Applet.Praktijkopdracht" />
+        <item itemvalue="Applet.Opdracht3 (1)" />
         <item itemvalue="Applet.Opdracht6" />
         <item itemvalue="Applet.Opdracht4" />
         <item itemvalue="Applet.Opdracht5" />
-        <item itemvalue="Applet.Opdracht3" />
       </list>
     </recent_temporary>
   </component>
