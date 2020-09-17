@@ -14,6 +14,7 @@ public class Opdracht4 extends Applet {
 
     //Controle!
     int nummer;
+    int index;
     boolean controle = false;
 
     public void init() {
@@ -27,9 +28,9 @@ public class Opdracht4 extends Applet {
 
     public void paint(Graphics g) {
         if (controle == true) {
-            g.drawString("Het getal staat in de array",50,75);
+            g.drawString("Het getal is op de: " + index + " plaats",50,75);
         } else {
-            g.drawString("Het getal staat niet in de array",50,75);
+            g.drawString("Het getal is niet gevonden",50,75);
         }
     }
 
@@ -40,6 +41,7 @@ public class Opdracht4 extends Applet {
 
             for(int i = 0; i < getallen.length; i++) {
                 if (nummer == getallen[i]) {
+                    index = i;
                     controle = true;
                 }
             }
