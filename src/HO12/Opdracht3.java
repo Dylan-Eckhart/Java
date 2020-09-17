@@ -14,6 +14,8 @@ public class Opdracht3 extends Applet {
     int cijfers[] = new int[5];
 
     public void init() {
+
+        //Initalisatie
         setSize(600,100);
         for(int i=0; i!=5; i++){
             input[i] = new TextField("",10);
