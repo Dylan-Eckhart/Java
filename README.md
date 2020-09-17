@@ -1,3 +1,3 @@
 # inleiding-java
 
-Fork het project. Je hebt dan een eigen kopie van de repository. Clone deze fork naar je computer en open het in IntelliJ
+Dit is mijn repository van Inleiding Java, voor eventuele vragen stuur mij een berichtje!
