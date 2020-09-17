@@ -41,6 +41,7 @@ public class Opdracht5 extends Applet {
             for(int i = 0; i < getallen.length; i++) {
                 if (nummer == getallen[i]) {
                     controle = true;
+                    break;
                 }
             }
             repaint();
