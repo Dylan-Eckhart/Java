@@ -10,7 +10,7 @@ public class Praktijkopdracht1 extends Applet {
     }
 
     public void paint(Graphics g) {
-        drawTree(g, 50, 50, 200, 700);
+        drawTree(g, 50, 50, 200, 500);
     }
 
     void drawTree(Graphics g, int x, int y, int w, int h) {
@@ -23,7 +23,4 @@ public class Praktijkopdracht1 extends Applet {
         g.setColor(new Color(50, 205, 76));
         g.fillOval(x, y, w, w);
     }
-
-
-}
 }

@@ -51,7 +51,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Applet.Opdracht3">
+  <component name="RunManager" selected="Applet.Praktijkopdracht1">
     <configuration name="Opdracht1 (1)" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HO13.Opdracht1" />
       <module name="inleiding-java" />
@@ -80,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Praktijkopdracht" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HO12.Praktijkopdracht" />
+    <configuration name="Praktijkopdracht1" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HO13.Praktijkopdracht1" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Applet.Praktijkopdracht1" />
         <item itemvalue="Applet.Opdracht3" />
         <item itemvalue="Applet.Opdracht1 (1)" />
         <item itemvalue="Applet.Opdracht1" />
         <item itemvalue="Applet.Opdracht6" />
-        <item itemvalue="Applet.Praktijkopdracht" />
       </list>
     </recent_temporary>
   </component>
