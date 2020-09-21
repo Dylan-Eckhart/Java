@@ -14,7 +14,7 @@ public class Opdracht2 extends Applet {
     String spel[];
     Button verdelen;
 
-    boolean help[];
+    boolean[] help;
     int start = 0;
 
     URL path;
@@ -31,27 +31,28 @@ public class Opdracht2 extends Applet {
         verdelen.addActionListener(new VerdeelListener());
         add(verdelen);
 
+        help = new boolean[5];
         for (int i = 0; i < help.length; i++) {
             help[i] = false;
         }
 
         for (int i = 0; i < 13; i++) {
-            spel[start] = kleur[0] + "" + betekenis[1];
+            spel[start] = kleur[0] + "" + betekenis[i];
             start++;
         }
 
         for (int i = 0; i < 13; i++) {
-            spel[start] = kleur[1] + "" + betekenis[1];
+            spel[start] = kleur[1] + "" + betekenis[i];
             start++;
         }
 
         for (int i = 0; i < 13; i++) {
-            spel[start] = kleur[2] + "" + betekenis[1];
+            spel[start] = kleur[2] + "" + betekenis[i];
             start++;
         }
 
         for (int i = 0; i < 13; i++) {
-            spel[start] = kleur[3] + "" + betekenis[1];
+            spel[start] = kleur[3] + "" + betekenis[i];
             start++;
         }
     }
@@ -72,7 +73,8 @@ public class Opdracht2 extends Applet {
     }
 
     public static void Random(String[] randomize) {
-//        Random = randomize1 = new Random();
+        Random randomize1;
+        Random = randomize1 = new Random();
 
         for (int i = 0; i < randomize.length; i++) {
             Random randomize1 = new Random();
