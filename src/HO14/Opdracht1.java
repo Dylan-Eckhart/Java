@@ -36,7 +36,7 @@ public class Opdracht1 extends Applet {
             rand2 = Math.random() * 3;
             int r2 = (int) rand2;
 
-            gekozen = kleur[r2]+ "" + betekenis[r1];
+            gekozen = kleur[r2] + "" + betekenis[r1];
 
             repaint();
         }
