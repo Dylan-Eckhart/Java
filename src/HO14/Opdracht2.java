@@ -16,7 +16,6 @@ public class Opdracht2 extends Applet {
 
     boolean help[];
     int start = 0;
-    double e;
 
     URL path;
     AudioClip applaus;
