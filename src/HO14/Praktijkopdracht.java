@@ -26,8 +26,8 @@ public class Praktijkopdracht extends Applet {
         setSize(500,500);
 
         tekst1 = tekst2;
-//        path = Praktijkopdracht.class.getResource("/H014/resources/");
-//        smiley = getImage(path, "smileys.png");
+        path = Praktijkopdracht.class.getResource("/H014/resources/");
+        smiley = getImage(path, "smileys.png");
 
         //Knoppen
         play = new Button("Play");
@@ -133,55 +133,53 @@ public class Praktijkopdracht extends Applet {
 
                 turn = true;
                 smileys-=userplay;
-                if(smileys <= 0 && game_over == false) {
+                if(smileys <= 0 && gameover == false) {
                     if(true == true) {
-                        user_lost = true;
-                        game_over = true;
+                        lost = true;
+                        gameover = true;
                     }
                 }
 
 
 
-                userturn = false;
-                appels-=bot;
-                if(appels <= 0 && game_over == false) {
-                    if(userturn == false) {
-                        user_lost = false;
-                        game_over = true;
-                    }
+                turn = false;
+                smileys-=bot;
+                if(smileys <= 0 && gameover == false) {
+                    lost = false;
+                    gameover = true;
                 }
 
-                stext = "de bot koos " + bot + " appels om weg te halen.";
+                tekst1 = "de bot koos " + bot + " appels om weg te halen.";
 
             }else {
-                stext = "error: voer een geldig getal in!";
+                tekst1 = "error: voer een geldig getal in!";
                 repaint();
             }
 
 
 
-            if(game_over==true) {
-                if(user_lost == true) {
-                    stext = "je hebt verloren!";
+            if(gameover==true) {
+                if(lost == true) {
+                    tekst1 = "je hebt verloren!";
                 }else {
-                    stext = "je hebt gewonnen!";
+                    tekst1 = "je hebt gewonnen!";
                 }
             }
 
 
-            input.setText("");
+            tekstveld.setText("");
             repaint();
         }
     }
 
-    class reset implements ActionListener {
+    class resetListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            input.setText("");
-            stext = stext_1;
-            appels = 23;
-            user_lost = false;
-            game_over = false;
-            userturn = true;
+            tekstveld.setText("");
+            tekst1 = tekst2;
+            smileys = 23;
+            lost = false;
+            gameover = false;
+            turn = true;
             repaint();
         }
     }
