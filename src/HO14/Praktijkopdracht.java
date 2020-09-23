@@ -8,6 +8,8 @@ import java.awt.event.*;
 public class Praktijkopdracht extends Applet {
 
     //Declaratie
+    Image smiley;
+    URL path;
     Button play;
     Button reset;
     TextField tekstveld;
@@ -149,10 +151,10 @@ public class Praktijkopdracht extends Applet {
                     gameover = true;
                 }
 
-                tekst1 = "de bot koos " + bot + " appels om weg te halen.";
+                tekst1 = "Bot koos " + bot + " Smileys te verwijderen.";
 
             }else {
-                tekst1 = "error: voer een geldig getal in!";
+                tekst1 = "Error: Voer een getal tussen 1-3 in!";
                 repaint();
             }
 
@@ -160,9 +162,9 @@ public class Praktijkopdracht extends Applet {
 
             if(gameover==true) {
                 if(lost == true) {
-                    tekst1 = "je hebt verloren!";
+                    tekst1 = "Winner!";
                 }else {
-                    tekst1 = "je hebt gewonnen!";
+                    tekst1 = "Loser!";
                 }
             }
 
