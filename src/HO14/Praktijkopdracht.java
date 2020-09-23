@@ -131,7 +131,7 @@ public class Praktijkopdracht extends Applet {
             int bot = 0;
             if(Integer.parseInt(tekstveld.getText()) == 1 || Integer.parseInt(tekstveld.getText()) == 2 || Integer.parseInt(tekstveld.getText()) ==3) {
                 userplay = Integer.parseInt(tekstveld.getText());
-                bot = botPlays(userplay,smileys;
+                bot = botPlays(userplay,smileys);
 
                 turn = true;
                 smileys-=userplay;
