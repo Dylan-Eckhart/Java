@@ -161,7 +161,7 @@ public class Praktijkopdracht extends Applet {
 
 
             if(gameover==true) {
-                if(lost == true) {
+                if(lost == false) {
                     tekst1 = "Winner!";
                 }else {
                     tekst1 = "Loser!";
