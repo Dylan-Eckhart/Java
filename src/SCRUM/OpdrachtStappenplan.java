@@ -11,15 +11,20 @@ public class OpdrachtStappenplan extends Applet {
 
     //Declaratie
     int getal;
+    int kwadraat;
 
     public void init() {
 
         //Initalisatie
         getal = 13;
          if (getal >= 0 && getal == (int)getal) {
-             for (int i = 1; i < getal; i++) {
-                 if (i % 2 == 0) {
-                     System.out.println(i);
+             for (int x = 1; x < getal; x++) {
+                 if (x % 2 == 0) {
+                     if (x % 6 == 0) {
+                         kwadraat = x * x;
+
+                     }
+                     System.out.println(x);
                  }
 
              }
