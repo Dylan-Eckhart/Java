@@ -28,7 +28,7 @@ public class Praktijkopdracht extends Applet {
         setSize(500,500);
 
         tekst1 = tekst2;
-        path = Praktijkopdracht.class.getResource("./resources/");
+        path = Praktijkopdracht.class.getResource("/HO14/resources/");
         smiley = getImage(path, "smileys.png");
 
         //Knoppen
