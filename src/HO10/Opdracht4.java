@@ -45,11 +45,7 @@ public class Opdracht4 extends Applet {
             StringJaar = TekstJaar.getText();
             DoubleMaand = Double.parseDouble(StringMaand);
             DoubleJaar = Double.parseDouble(StringJaar);
-            if (DoubleMaand == 1) {
-                StringMaand = "Januari";
-                StringDagen = "31";
-                Uitkomst = "Maand + aantal Dagen:  " + StringMaand + " en " + StringDagen + " dagen.";
-            }
+
             if ( (DoubleJaar % 4 == 0 && !(DoubleJaar % 100 == 0)) || DoubleJaar % 400 == 0 && DoubleMaand == 2) {
                 StringMaand = "Februari";
                 StringDagen = "29";
@@ -59,6 +55,11 @@ public class Opdracht4 extends Applet {
                 StringMaand = "Februari";
                 StringDagen = "28";
                 Uitkomst = "Maand + aantal Dagen: " + StringMaand + " en " + StringDagen + " dagen.";
+            }
+            if (DoubleMaand == 1) {
+                StringMaand = "Januari";
+                StringDagen = "31";
+                Uitkomst = "Maand + aantal Dagen:  " + StringMaand + " en " + StringDagen + " dagen.";
             }
             if (DoubleMaand == 3) {
                 StringMaand = "Maart";
