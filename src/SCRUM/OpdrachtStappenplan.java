@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 public class OpdrachtStappenplan extends Applet {
 
     //Declaratie
-    int limietVanInvoer;
+    int limietVanInvoerGebruiker;
     int kwadraat;
     int som;
     int y;
@@ -16,64 +16,65 @@ public class OpdrachtStappenplan extends Applet {
 
     String uitkomst;
     String sommie;
+
     TextField tekstvak;
     Button enter;
 
     public void init() {
 
         //Initalisatie
-        limietVanInvoer = 0;
-        som = 0;
+        limietVanInvoerGebruiker = 0;
         enter = new Button("Enter");
         tekstvak = new TextField("",10);
-        submit submit = new submit();
-        tekstvak.addActionListener(submit);
-        enter.addActionListener(submit);
         add(tekstvak);
         add(enter);
-        sommie = "Het totaal: ";
+        submit submit = new submit();
+        enter.addActionListener(submit);
+        tekstvak.addActionListener(submit);
+        som = 0;
+        sommie = "de som = ";
     }
 
-    @Override
     public void paint(Graphics g) {
-        y = 20;
-        if (limietVanInvoer >= 0 && limietVanInvoer == (int) limietVanInvoer) {
-            for (int x = 1; x < limietVanInvoer; x++) {
+        y = 50;
+        if (limietVanInvoerGebruiker >= 0 && limietVanInvoerGebruiker == (int) limietVanInvoerGebruiker) {
+            for (int x = 1; x <= limietVanInvoerGebruiker; x++) {
                 if (x % 2 == 0) {
                     if (x % 6 == 0) {
                         kwadraat = x * x;
-                        g.drawString("" + kwadraat,20,y);
+                        g.drawString("" + kwadraat, 20, y);
                         som = som + kwadraat;
                     } else {
+                        System.out.println(x);
                         uitkomst = "" + x;
-                        g.drawString("" + sommie + x,20,y);
+                        g.drawString("" + x, 20,y);
                         som = som + x;
                     }
                     y += 15;
                 }
-
             }
             if (som != 0) {
-                g.drawString("" + sommie, 20, y);
+                g.drawString("" + sommie + som,20,y);
                 som = 0;
-            } else if (error == true) {
+            } else if (error == true){
+                g.drawString("" + sommie,20,y);
+            }
         }
-
     }
 
     private class submit implements ActionListener {
-        @Override
         public void actionPerformed(ActionEvent e) {
             String input;
             input = tekstvak.getText();
             try {
-                limietVanInvoer = Integer.parseInt(input);
-            } catch (Exception a) {
-            }
-                sommie = "Error! Graag een getal invoeren.";
+                limietVanInvoerGebruiker = Integer.parseInt(input);
+            } catch (Exception s) {
+                limietVanInvoerGebruiker = 0;
+                error = true;
+                sommie = "ERROR! u moet een getal invullen niet een woord of een letter.";
             }
             repaint();
-
         }
     }
 }
+
