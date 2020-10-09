@@ -27,8 +27,8 @@ public class Opdracht4 extends Applet {
     }
 
     public void paint(Graphics g) {
-        if (controle == true) {
-            g.drawString("Het getal is op de: " + index + " plaats",50,75);
+        if (controle) {
+            g.drawString("Het getal is op de: " + index + " plaats", 50, 75);
         } else {
             g.drawString("Het getal is niet gevonden",50,75);
         }
