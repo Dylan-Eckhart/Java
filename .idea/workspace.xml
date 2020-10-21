@@ -21,60 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="30d16d7a-020d-423e-abe2-0432399cd025" name="Default Changelist" comment="Changed the int and simplified the code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO1/HalloRocDev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk1/HalloRocDev.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO10/Opdracht1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk10/Opdracht1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO10/Opdracht2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk10/Opdracht2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO10/Opdracht3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk10/Opdracht3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO10/Opdracht4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk10/Opdracht4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO10/Opdracht5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk10/Opdracht5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO10/Praktijkopdracht.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk10/Praktijkopdracht.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO11/Opdracht1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk11/Opdracht1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO11/Opdracht2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk11/Opdracht2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO11/Opdracht3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk11/Opdracht3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO11/Opdracht4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk11/Opdracht4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO11/Opdracht5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk11/Opdracht5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO11/Opdracht6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk11/Opdracht6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO11/Opdracht7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk11/Opdracht7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO11/Opdracht8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk11/Opdracht8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO11/Opdracht9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk11/Opdracht9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO11/Praktijkopdracht1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk11/Praktijkopdracht1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO11/Praktijkopdracht2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk11/Praktijkopdracht2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO12/Opdracht1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk12/Opdracht1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO12/Opdracht2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk12/Opdracht2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO12/Opdracht3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk12/Opdracht3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO12/Opdracht4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk12/Opdracht4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO12/Opdracht5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk12/Opdracht5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO12/Opdracht6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk12/Opdracht6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO12/Praktijkopdracht.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk12/Praktijkopdracht.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO13/Opdracht1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk13/Opdracht1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO13/Opdracht2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk13/Opdracht2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO13/Opdracht3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk13/Opdracht3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO13/Praktijkopdracht1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk13/Praktijkopdracht1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO13/Praktijkopdracht2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk13/Praktijkopdracht2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO14/Opdracht1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk14/Opdracht1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO14/Opdracht2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk14/Opdracht2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO14/Praktijkopdracht.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk14/Praktijkopdracht.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO14/resources/applaus.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk14/resources/applaus.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO14/resources/smileys.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk14/resources/smileys.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO2/Opdracht2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk2/Opdracht2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO4/Opdracht1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk4/Opdracht1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO4/Opdracht2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk4/Opdracht2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO4/Opdracht3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk4/Opdracht3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO4/Opdracht4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk4/Opdracht4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO4/Opdracht5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk4/Opdracht5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO4/Opdracht6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk4/Opdracht6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO4/Opdracht7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk4/Opdracht7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO4/Praktijkopdracht.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk4/Praktijkopdracht.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO5/Opdracht1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk5/Opdracht1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO5/Opdracht2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk5/Opdracht2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO6/Opdracht1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk6/Opdracht1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO6/Opdracht2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk6/Opdracht2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO6/Opdracht3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk6/Opdracht3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO6/Praktijkopdracht.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk6/Praktijkopdracht.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO8/Opdracht1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk8/Opdracht1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO8/Opdracht2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk8/Opdracht2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO8/Opdracht3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk8/Opdracht3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HO8/Praktijkopdracht.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hoofdstuk8/Praktijkopdracht.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SCRUM/OpdrachtStappenplan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCRUM/OpdrachtStappenplan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,13 +101,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,7 +119,6 @@
         <item itemvalue="Applet.Praktijkopdracht2" />
         <item itemvalue="Applet.Opdracht3" />
         <item itemvalue="Applet.Opdracht2" />
-        <item itemvalue="Applet.Opdracht4 (1)" />
         <item itemvalue="Applet.Opdracht1" />
       </list>
     </recent_temporary>
@@ -243,14 +191,8 @@
       <workItem from="1603095927663" duration="74000" />
       <workItem from="1603098706518" duration="1232000" />
       <workItem from="1603274528218" duration="20000" />
-      <workItem from="1603274585076" duration="325000" />
-    </task>
-    <task id="LOCAL-00071" summary="Push">
-      <created>1600246809882</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1600246809882</updated>
+      <workItem from="1603274585076" duration="1113000" />
+      <workItem from="1603284974843" duration="2353000" />
     </task>
     <task id="LOCAL-00072" summary="Push">
       <created>1600246864170</created>
@@ -588,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602227013453</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="Changed the int and simplified the code">
+      <created>1603275189414</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1603275189415</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,37 +577,37 @@
     </state>
     <state x="698" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.0.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1600678092801" />
     <state x="524" y="240" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.798@0.23.1440.798" timestamp="1602076205512" />
-    <state width="1878" height="186" key="GridCell.Tab.0.bottom" timestamp="1603100467433">
+    <state width="1878" height="186" key="GridCell.Tab.0.bottom" timestamp="1603276243236">
       <screen x="0" y="23" width="1920" height="981" />
     </state>
     <state width="1358" height="236" key="GridCell.Tab.0.bottom/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599806938760" />
     <state width="1878" height="58" key="GridCell.Tab.0.bottom/-1080.0.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1600851663992" />
     <state width="1878" height="186" key="GridCell.Tab.0.bottom/-1080.23.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1602228751497" />
-    <state width="1878" height="186" key="GridCell.Tab.0.bottom/-1080.23.1080.1897/0.23.1920.981@0.23.1920.981" timestamp="1603100467433" />
+    <state width="1878" height="186" key="GridCell.Tab.0.bottom/-1080.23.1080.1897/0.23.1920.981@0.23.1920.981" timestamp="1603276243236" />
     <state width="1398" height="143" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1602078850336" />
-    <state width="1878" height="186" key="GridCell.Tab.0.center" timestamp="1603100467432">
+    <state width="1878" height="186" key="GridCell.Tab.0.center" timestamp="1603276243233">
       <screen x="0" y="23" width="1920" height="981" />
     </state>
     <state width="1358" height="236" key="GridCell.Tab.0.center/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599806938758" />
     <state width="1878" height="58" key="GridCell.Tab.0.center/-1080.0.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1600851663990" />
     <state width="1878" height="186" key="GridCell.Tab.0.center/-1080.23.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1602228751496" />
-    <state width="1878" height="186" key="GridCell.Tab.0.center/-1080.23.1080.1897/0.23.1920.981@0.23.1920.981" timestamp="1603100467432" />
+    <state width="1878" height="186" key="GridCell.Tab.0.center/-1080.23.1080.1897/0.23.1920.981@0.23.1920.981" timestamp="1603276243233" />
     <state width="1398" height="143" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1602078850335" />
-    <state width="1878" height="186" key="GridCell.Tab.0.left" timestamp="1603100467431">
+    <state width="1878" height="186" key="GridCell.Tab.0.left" timestamp="1603276243232">
       <screen x="0" y="23" width="1920" height="981" />
     </state>
     <state width="1358" height="236" key="GridCell.Tab.0.left/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599806938758" />
     <state width="1878" height="58" key="GridCell.Tab.0.left/-1080.0.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1600851663987" />
     <state width="1878" height="186" key="GridCell.Tab.0.left/-1080.23.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1602228751495" />
-    <state width="1878" height="186" key="GridCell.Tab.0.left/-1080.23.1080.1897/0.23.1920.981@0.23.1920.981" timestamp="1603100467431" />
+    <state width="1878" height="186" key="GridCell.Tab.0.left/-1080.23.1080.1897/0.23.1920.981@0.23.1920.981" timestamp="1603276243232" />
     <state width="1398" height="143" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1602078850335" />
-    <state width="1878" height="186" key="GridCell.Tab.0.right" timestamp="1603100467432">
+    <state width="1878" height="186" key="GridCell.Tab.0.right" timestamp="1603276243234">
       <screen x="0" y="23" width="1920" height="981" />
     </state>
     <state width="1358" height="236" key="GridCell.Tab.0.right/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599806938759" />
     <state width="1878" height="58" key="GridCell.Tab.0.right/-1080.0.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1600851663991" />
     <state width="1878" height="186" key="GridCell.Tab.0.right/-1080.23.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1602228751497" />
-    <state width="1878" height="186" key="GridCell.Tab.0.right/-1080.23.1080.1897/0.23.1920.981@0.23.1920.981" timestamp="1603100467432" />
+    <state width="1878" height="186" key="GridCell.Tab.0.right/-1080.23.1080.1897/0.23.1920.981@0.23.1920.981" timestamp="1603276243234" />
     <state width="1398" height="143" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1602078850336" />
     <state width="1358" height="253" key="GridCell.Tab.1.bottom" timestamp="1600683723266">
       <screen x="0" y="23" width="1920" height="978" />
@@ -681,14 +630,15 @@
     </state>
     <state x="469" y="151" key="SettingsEditor/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599472460970" />
     <state x="352" y="23" key="SettingsEditor/0.23.1440.798@0.23.1440.798" timestamp="1600866749717" />
-    <state x="560" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602227015627">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state x="560" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603275191170">
+      <screen x="0" y="23" width="1920" height="981" />
     </state>
     <state x="560" y="252" key="Vcs.Push.Dialog.v2/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599748892658" />
     <state x="560" y="253" key="Vcs.Push.Dialog.v2/-1080.-44.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1599748969761" />
     <state x="560" y="252" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1600854980305" />
     <state x="560" y="234" key="Vcs.Push.Dialog.v2/-1080.23.1080.1897/0.0.1920.1001@0.0.1920.1001" timestamp="1600327191062" />
     <state x="560" y="252" key="Vcs.Push.Dialog.v2/-1080.23.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1602227015627" />
+    <state x="560" y="253" key="Vcs.Push.Dialog.v2/-1080.23.1080.1897/0.23.1920.981@0.23.1920.981" timestamp="1603275191170" />
     <state x="420" y="210" key="Vcs.Push.Dialog.v2/0.23.1440.798@0.23.1440.798" timestamp="1602078840992" />
     <state x="469" y="268" width="907" height="617" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1599736997782">
       <screen x="0" y="23" width="1920" height="978" />
