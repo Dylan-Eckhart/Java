@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30d16d7a-020d-423e-abe2-0432399cd025" name="Default Changelist" comment="Add">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="30d16d7a-020d-423e-abe2-0432399cd025" name="Default Changelist" comment="Add" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,35 +65,35 @@
   <component name="RunManager" selected="Applet.Praktijkopdracht">
     <configuration name="Opdracht1" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hoofdstuk12.Opdracht1" />
-      <module name="Inleiding Java" />
+      <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Opdracht2" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hoofdstuk13.Opdracht2" />
-      <module name="Inleiding Java" />
+      <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Opdracht3" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hoofdstuk13.Opdracht3" />
-      <module name="Inleiding Java" />
+      <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Praktijkopdracht" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hoofdstuk14.Praktijkopdracht" />
-      <module name="Inleiding Java" />
+      <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Praktijkopdracht2" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hoofdstuk13.Praktijkopdracht2" />
-      <module name="Inleiding Java" />
+      <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,13 +184,7 @@
       <workItem from="1603876906992" duration="71000" />
       <workItem from="1603887444514" duration="183000" />
       <workItem from="1604080324884" duration="16000" />
-    </task>
-    <task id="LOCAL-00074" summary="Push">
-      <created>1600247738270</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1600247738270</updated>
+      <workItem from="1604315776728" duration="34000" />
     </task>
     <task id="LOCAL-00075" summary="Push">
       <created>1600261019582</created>
@@ -530,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603288038894</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="Add">
+      <created>1604315795688</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1604315795689</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,15 +623,15 @@
     </state>
     <state x="469" y="151" key="SettingsEditor/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599472460970" />
     <state x="352" y="23" key="SettingsEditor/0.23.1440.798@0.23.1440.798" timestamp="1600866749717" />
-    <state x="420" y="211" key="Vcs.Push.Dialog.v2" timestamp="1603288040308">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state x="560" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604315797136">
+      <screen x="0" y="23" width="1920" height="981" />
     </state>
     <state x="560" y="252" key="Vcs.Push.Dialog.v2/-1080.-21.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1599748892658" />
     <state x="560" y="253" key="Vcs.Push.Dialog.v2/-1080.-44.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1599748969761" />
     <state x="560" y="252" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1600854980305" />
     <state x="560" y="234" key="Vcs.Push.Dialog.v2/-1080.23.1080.1897/0.0.1920.1001@0.0.1920.1001" timestamp="1600327191062" />
     <state x="560" y="252" key="Vcs.Push.Dialog.v2/-1080.23.1080.1897/0.23.1920.978@0.23.1920.978" timestamp="1602227015627" />
-    <state x="560" y="253" key="Vcs.Push.Dialog.v2/-1080.23.1080.1897/0.23.1920.981@0.23.1920.981" timestamp="1603275191170" />
+    <state x="560" y="253" key="Vcs.Push.Dialog.v2/-1080.23.1080.1897/0.23.1920.981@0.23.1920.981" timestamp="1604315797136" />
     <state x="420" y="210" key="Vcs.Push.Dialog.v2/0.23.1440.798@0.23.1440.798" timestamp="1602078840992" />
     <state x="420" y="211" key="Vcs.Push.Dialog.v2/0.23.1440.801@0.23.1440.801" timestamp="1603288040308" />
     <state x="469" y="268" width="907" height="617" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1599736997782">
