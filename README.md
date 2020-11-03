@@ -1,3 +1,3 @@
-# Inleiding Java
+#Java
 
-Dit is mijn repository van Inleiding Java.
+Dit is mijn repository van Java.
